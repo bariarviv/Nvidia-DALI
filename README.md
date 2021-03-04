@@ -1,6 +1,6 @@
 [![Documentation](https://img.shields.io/badge/Nvidia%20DALI-documentation-brightgreen.svg?longCache=true)](https://docs.nvidia.com/deeplearning/dali/user-guide/docs/index.html)
 
-# Nvidia-DALI
+# Nvidia DALI
 
 Deep learning applications require complex, multi-stage pre-processing data pipelines. Such data pipelines involve compute-intensive operations that are carried out on the CPU. For example, tasks such as: load data from disk, decode, crop, random resize, color and spatial augmentations and format conversions, are mainly carried out on the CPUs, limiting the performance and scalability of training and inference.
 
@@ -21,3 +21,5 @@ This library is open sourced and it is available in the NVIDIA GitHub repository
 ## Files
 1. Nvidia DALI_BariArviv.ipynb
 2. Nvidia DALI_BariArviv.ppsx
+
+The presentation contains: an explanation of Nvidia DALI, the installation process, connection to the server and a running example.
