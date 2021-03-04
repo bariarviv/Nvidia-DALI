@@ -3,8 +3,11 @@
 # Nvidia DALI
 
 Deep learning applications require complex, multi-stage pre-processing data pipelines. Such data pipelines involve compute-intensive operations that are carried out on the CPU. For example, tasks such as: load data from disk, decode, crop, random resize, color and spatial augmentations and format conversions, are mainly carried out on the CPUs, limiting the performance and scalability of training and inference.
+
 In addition, the deep learning frameworks have multiple data pre-processing implementations, resulting in challenges such as portability of training and inference workflows, and code maintainability.
+
 NVIDIA DALI, NVIDIA’s Data Loading Library, is a collection of highly optimized building blocks, and an execution engine, to accelerate the pre-processing of the input data for deep learning applications. DALI provides both the performance and the flexibility to accelerate different data pipelines as one library. This library can then be easily integrated into different deep learning training and inference applications.
+
 
 ### Highlights
 - Full data pipeline–accelerated from reading the disk to getting ready for training and inference.
@@ -15,6 +18,7 @@ NVIDIA DALI, NVIDIA’s Data Loading Library, is a collection of highly optimize
 - Extensible for user-specific needs through open source license.
 
 This library is open sourced and it is available in the NVIDIA GitHub repository: https://github.com/NVIDIA/DALI
+
 
 ### Files
 1. Nvidia DALI_BariArviv.ipynb
